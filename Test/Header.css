@@ -74,6 +74,7 @@ header > .logo > svg {
 }
 .dropdown:hover .dropdown-options {
   display: block;
+  z-index: 1;
 }
 button {
   background-color: green;
