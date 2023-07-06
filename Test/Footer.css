@@ -1,0 +1,84 @@
+footer{  
+  background-color: rgb(67 67 67);
+}
+.links_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list {
+  color: rgba(255, 255, 255, 0.685);
+}
+.list1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style-type: none;
+}
+.list1 > li {
+  margin-top:10px ;
+  margin-bottom: 10px;
+}
+.list1 > li > a:hover
+{
+text-decoration: underline;
+}
+.sitemap_links{
+  color: rgba(255, 255, 255, 0.685);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.sitemap_links > hr {
+
+  color: green;
+}
+
+.sitemap_links > .sitemap {
+  display: flex;
+}
+.sitemap_links > .sitemap > a {
+  color: white;
+  margin-top: 30px;
+
+}
+.sitemap_links > .sitemap > a:hover{
+  text-decoration: underline;
+}
+.sitemap_links > .socialmedia  {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.sitemap_links > .socialmedia > a{
+  margin: 5px 5px;
+}
+.end_of_footer{
+  display: flex;
+  flex-direction: row;
+}
+.end_of_footer > .intuit_text > h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400px;
+  font-size: 50px;
+  color: white;
+  margin:120px;
+  margin-top: 60px;
+}
+.end_of_footer > .footer_info > img{
+  margin: 200px;
+}
+.end_of_footer > .footer_info > pre{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: white;
+margin: 50px;
+}
+.end_of_footer > .footer_info > pre > a {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 3px 3px;
+  text-decoration: underline;
+}
+.end_of_footer > .legal_links > pre,a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  margin: 3px;
+  margin-top: 270px;
+  text-decoration: none;
+}
